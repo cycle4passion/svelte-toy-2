@@ -71,6 +71,8 @@
   TODO: <Row>:45 flip animation for array move/reorder works for some but not all arrays, not sure why (compArr move 2 up animates, but move 8 up does not.)
   TODO: animations have some jank, see opening "Store" store and collpasing of complexObj
   TODO: flashing implementation still has some quirks false/positives
+  TODO: chevron font sizing causes settings to open <ToyGroup>: 91 and 92
+  TODO: EmptyObj set to {} should not be expandable
   */
 
   export let top = '1%';

@@ -88,9 +88,9 @@
   </div>
   {#if inSettings}
     <div class="sizers">
-      <span class="sizeUp" on:click={() => $toyStore.pxFontSize++}>{chevron}</span><span
-        class="sizeDown"
-        on:click={() => $toyStore.pxFontSize--}>{chevron}</span>
+      <span class="sizeUp" on:click|stopPropagation={() => $toyStore.pxFontSize++}>{chevron}</span
+      ><span class="sizeDown" on:click|stopPropagation={() => $toyStore.pxFontSize--}
+        >{chevron}</span>
     </div>
   {:else if $toyStore.advancedEdit && (typeof $store === 'object' || $store === null || $store === undefined)}
     <button
@@ -164,11 +164,13 @@
   }
 
   .sizeUp {
+    padding: 0 2px;
     margin: 0 5px;
     transform: rotate(180deg);
   }
 
   .sizeDown {
+    padding: 0 2px;
     transform: rotate(0deg);
   }
 

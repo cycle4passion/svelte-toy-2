@@ -1,8 +1,6 @@
 # Svelte-Toy-2  
 
 Current Svelte-Toy Repo is not working so cannot create a pull request, seems to be packaging issue for side-menu. This represents a pretty extensive rewrite of svelte-toy trying to stay true to the original with detailed documentation of Fixes, Changes, and New functionality. As requested, it is updated to use Angus just set - https://www.npmjs.com/package/just-safe-set/v/2.2.0?activeTab=readme instead of much larger lodash.set. Hopefully this can be merged.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/cycle4passion/svelte-toy-2?file=README.md)
   
   ## Changes
   * CHANGE: brought side-menu into this package as temporary fix. Tried not to change the side-menu package as it is expected that it will return to an import. 

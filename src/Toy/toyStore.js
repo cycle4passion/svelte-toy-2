@@ -99,7 +99,7 @@ let init = {
   advancedEdit: true,
   autoExpand: true,
   hotKeys: true,
-  pxFontSize: 14,
+  pxFontSize: 12,
 };
 
 export let settingsTitles = {

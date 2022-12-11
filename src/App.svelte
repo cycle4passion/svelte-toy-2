@@ -15,18 +15,24 @@
     empty: '',
   });
   let simple = writable('simple');
-  let empty = writable();
+  let emptyObj = writable({});
+  let _null = writable();
 
   import { writable } from 'svelte/store';
 </script>
 
-<Toy register={{ store, simple, empty }} theme="dark" isToyActive={true} openOnLoad={[0]} />
+<Toy
+  register={{ store, simple, emptyObj, _null }}
+  theme="dark"
+  isToyActive={true}
+  openOnLoad={[0]} />
 
 <input bind:value={$store.html} />
 <div>
   <pre>{JSON.stringify($store, null, 2)}</pre>
   <pre>{JSON.stringify($simple, null, 2)}</pre>
-  <pre>{JSON.stringify($empty, null, 2)}</pre>
+  <pre>{JSON.stringify($emptyObj, null, 2)}</pre>
+  <pre>{JSON.stringify($_null, null, 2)}</pre>
 </div>
 
 <style>
