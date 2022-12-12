@@ -6,7 +6,9 @@
 
   /*
   Current Svelte-Toy Repo is not working so cannot create a pull request, seems to be packaging issue for side-menu.
-  This represents a pretty extensive rewrite of svelte-toy trying to stay true to the original qith documentation of Fixes, Changes, and New functionality.
+  This represents a pretty extensive rewrite of svelte-toy trying to stay true to the original with documentation of Fixes, Changes, and New functionality.
+
+  [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/cycle4passion/svelte-toy-2?file=README.md)
 
   As requested, Updated to use Angus just set - https://www.npmjs.com/package/just-safe-set/v/2.2.0?activeTab=readme instead of much larger lodash.set
   
