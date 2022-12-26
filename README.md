@@ -39,7 +39,7 @@ Current Svelte-Toy Repo is not working so cannot create a pull request, seems to
       $toyStore.hotKeys: Enables hotkeys for common actions. Ctrl-S: show/hide Svelte-Toy, Ctrl-E: expand/collapse all stores, Ctrl-F: go to filter.
       $toySTore.pxFontSize: Sets the font size in pixels for the store data.
       $toyStore.updateExternalStore method. allows to update and delteing external store keys.
-      
+      %toyStore.sortByKey allows optional alphabetic sort of a stores keys.
   ## MINOR NEW FUNCTIONALITY
   * NEW: more transitions and animations
   * NEW: Added decorative [] for arrays and {} for objects

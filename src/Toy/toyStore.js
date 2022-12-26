@@ -100,6 +100,7 @@ let init = {
   autoExpand: true,
   hotKeys: true,
   pxFontSize: 12,
+  sortByKey: true,
 };
 
 export let settingsTitles = {

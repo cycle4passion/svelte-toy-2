@@ -27,6 +27,7 @@
           v.toString().toLowerCase().includes(filter.toLowerCase()) ||
           (typeof v === 'object' && JSON.stringify(v).toLowerCase().includes(filter.toLowerCase())),
       );
+      if ($toyStore.sortByKey) storeKV.sort();
       if ($toyStore.autoExpand && filter) {
         isSectionOpen = storeKV.length !== 0;
         showComplex = storeKV.length !== 0;
