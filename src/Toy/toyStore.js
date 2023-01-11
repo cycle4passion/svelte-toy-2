@@ -112,7 +112,7 @@ export let settingsTitles = {
   hotKeys:
     'Enables hotkeys for common actions. Ctrl-S: show/hide Svelte-Toy, Ctrl-E: expand/collapse all stores, Ctrl-F: go to filter.',
   pxFontSize: 'Sets the font size in pixels for the store data.',
-  sortByKey: 'Stores can be sorted alphabetically by key (easier to find in larger stores',
+  sortByKey: 'Stores can be sorted alphabetically by key (easier to find in larger stores)',
 };
 
 export let pauseFlash = writable(false);
