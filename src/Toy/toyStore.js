@@ -80,11 +80,11 @@ function _toyStore(init) {
           /* Simple Store */
           newData = value;
         } else {
-          if (inArray && !key) key = get(u, path).length;
-          let newpath = `${path}${key ? (path ? '.' : '') + key : ''}`;
           if (type === null) {
-            omit(newData, newpath);
+            omit(newData, path);
           } else {
+            if (inArray && !key) key = get(u, path).length;
+            let newpath = `${path}${key ? (path ? '.' : '') + key : ''}`;
             set(newData, newpath, value);
           }
         }
