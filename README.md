@@ -55,9 +55,8 @@ Current Svelte-Toy Repo is not working so cannot create a pull request, seems to
 
   *** STILL TODO
   * TODO: CSS: in serious need CSS cleanup, renaming css vars, currently using  state-mang/toy/sidebar, and get confusing.
-  * TODO: CSS: up/down chevrons for adjusting pxFontSize in Settings header not vertically aligned
   * TODO: CSS: <ToyGroup>:147 more selectivity for chevron to avoid !important, I think problem stems from being within :global(), failed :global(h4 span.chevron.isSectionOpen)
-  * TODO: CSS: custom/themed vertical srollbar would be nice. its smaller size beneficial too.
+  * TODO: CSS: custom/themed vertical srollbar would be nice. smaller size beneficial too.
   * TODO: CSS: size of toggle doesn't adjust to $toyStore.pxFontSize, implementation a little bit of a CSS nightmare.
   * TODO: CSS: Clear button on filter on vertically aligned with changing font-sizes
   * TODO: CSS: in <Key> the +/- button seen while hovering at root of objects/arrays, changes sizes depending on + or -, force width = height so basing off var(--state-tool-font-size) to fix?
