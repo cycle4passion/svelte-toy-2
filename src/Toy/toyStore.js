@@ -45,7 +45,8 @@ function _toyStore(init) {
   } = writable(init, () => {
     // on setup, runs after first subscriber
     let unsubscribeLS = toyStore.subscribe(val => {
-      if (typeof window !== 'undefined') localStorage.setItem('toyStore', JSON.stringify(val));
+      if (typeof window !== 'undefined')
+        window.localStorage.setItem('toyStore', JSON.stringify(val));
     });
 
     return () => {
