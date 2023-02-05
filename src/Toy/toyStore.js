@@ -117,4 +117,6 @@ export let settingsTitles = {
 };
 
 export let pauseFlash = writable(false);
-export let toyStore = _toyStore(JSON.parse(localStorage.getItem('toyStore')) || init);
+export const toyStore = _toyStore(
+  (typeof window !== 'undefined' && JSON.parse(localStorage.getItem('toyStore'))) || init,
+);
